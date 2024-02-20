@@ -37,7 +37,7 @@ const Hero = () => {
                 </Button>
               </Link>
               <Button variant="secondary" className="gap-x-2">
-                Contact Me <Send size={18} />
+                Download CV <Download size={18} />
               </Button>
             </div>
           </div>
