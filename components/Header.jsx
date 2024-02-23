@@ -33,13 +33,13 @@ const Header = () => {
           <div className="flex item-center gap-x-6">
             {/* Nav */}
             <Nav
-              containerStyles="hidden xl:flex gap-x-8 items-center"
+              containerStyles="hidden xl:flex gap-x-10 items-center"
               linkStyles="relative hover:text-primary transition-all"
               underlineStyles="absolute left-0 top-full h-[2px] bg-primary w-full"
             />
             <ThemeToggler />
             {/* Mobile Nav */}
-            <div className="xl:hidden">
+            <div className="xl:hidden mt-[8px]">
               <MobileNav />
             </div>
           </div>
