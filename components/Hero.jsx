@@ -10,7 +10,7 @@ import {
 } from "react-icons/ri";
 
 //Components
-import DevImg from "./devImg";
+import DevImg from "./DevImg";
 import Badge from "./Badge";
 import Socials from "./Socials";
 
@@ -40,9 +40,24 @@ const Hero = () => {
                 Download CV <Download size={18} />
               </Button>
             </div>
+            {/* Socials */}
+            <Socials
+              containerStyles="flex gap-x-6 mx-auto xl:mx-0"
+              iconStyles="text-foreground text-[22px] hover:text-primary transition-all cursor-pointer"
+            />
           </div>
           {/* Image */}
-          <div className="hidden xl:flex relative">image</div>
+          <div className="hidden xl:flex relative">
+            {/* Badge */}
+            <Badge />
+            <div className="bg bg-hero_shape_2_light dark:bg-hero_shape_2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
+              <DevImg
+                className="bg-blend-multiply"
+                containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom"
+                imgSrc="/hero/developer.png"
+              />
+            </div>
+          </div>
         </div>
         <div className="hidden md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary" />
