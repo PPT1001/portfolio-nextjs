@@ -48,8 +48,6 @@ const Hero = () => {
           </div>
           {/* Image */}
           <div className="hidden xl:flex relative">
-            {/* Badge */}
-            <Badge />
             <div className="bg bg-hero_shape_2_light dark:bg-hero_shape_2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
               <DevImg
                 className="bg-blend-multiply"
