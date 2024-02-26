@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button-copy"; // Fix the casing of the import statement
 
 import "swiper/css";
 import "swiper/css/pagination";

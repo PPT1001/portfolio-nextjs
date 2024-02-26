@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button-copy";
 import { Download, Send } from "lucide-react";
 import { SparklesCore } from "./ui/sparkles.tsx";
 import { BackgroundBeams } from "./ui/background-beams";
@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
-        <div className="w-full absolute inset-0 h-[700px]">
+        {/* <div className="w-full absolute inset-0 h-[700px]">
           <SparklesCore
             id="tsparticlesfullpage"
             background="transparent"
@@ -30,7 +30,7 @@ const Hero = () => {
             className="w-full h-full"
             particleColor="#FFFFFF"
           />
-        </div>
+        </div> */}
         <div className="flex justify-between gap-x-8">
           {/* Text */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
