@@ -1,6 +1,8 @@
 import Link from "next/link";
-import { Button } from "./ui/button";
+import { Button } from "./ui/Button";
 import { Download, Send } from "lucide-react";
+import { SparklesCore } from "./ui/sparkles.tsx";
+import { BackgroundBeams } from "./ui/background-beams";
 
 import {
   RiBriefCase4Fill,
@@ -18,6 +20,17 @@ const Hero = () => {
   return (
     <section className="py-12 xl:py-24 h-[84vh] xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
+        <div className="w-full absolute inset-0 h-[700px]">
+          <SparklesCore
+            id="tsparticlesfullpage"
+            background="transparent"
+            minSize={0.6}
+            maxSize={1.4}
+            particleDensity={100}
+            className="w-full h-full"
+            particleColor="#FFFFFF"
+          />
+        </div>
         <div className="flex justify-between gap-x-8">
           {/* Text */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
@@ -61,6 +74,7 @@ const Hero = () => {
           <RiArrowDownSLine className="text-3xl text-primary" />
         </div>
       </div>
+      {/* <BackgroundBeams /> */}
     </section>
   );
 };
