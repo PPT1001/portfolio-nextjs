@@ -88,8 +88,10 @@ module.exports = {
         blend: "linear-gradient(90deg, hsl(var(--blend-from)) 0%, hsl(var(--blend-to)) 100%)",
         dots_light : "url(/dots-light.svg)",
         dots_dark : "url(/dots-dark.svg)",
+        work_project_bg_light: "url(/work/project-bg-light.png)",
+        work_project_bg_dark: "url(/work/project-bg-dark.png)",
       }
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
