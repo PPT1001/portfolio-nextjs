@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Button } from "./ui/Button";
+import { Button } from "./ui/button";
 import { Download, Send } from "lucide-react";
 import { SparklesCore } from "./ui/sparkles.tsx";
 import { BackgroundBeams } from "./ui/background-beams";
