@@ -111,6 +111,10 @@ const volunteering = [
       },
       {
         title:
+          "Finance and Partnerships Team Member of IEEE Sri Lanka Student Activities Committee 2023/2024",
+      },
+      {
+        title:
           "Logistics Team Member of IEEE Innovation Nation Sri Lanka 2023 - IEEE Young Professionals Sri Lanka",
       },
       {
@@ -141,7 +145,7 @@ const About = () => {
           <div className="hidden xl:flex flex-1 relative">
             <DevImg
               containerStyles="bg-about_shape_light dark:bg-about_shape_dark w-[505px] h-[505px] bg-no-repeat relative"
-              imgSrc="/about/developer.png"
+              imgSrc="/about/Pragash2.png"
             />
           </div>
           {/* Tabs */}

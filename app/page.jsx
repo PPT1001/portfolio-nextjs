@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 import Work from "@/components/Work";
 import Cta from "@/components/Cta";
 
@@ -9,7 +10,7 @@ export default function Home() {
     <main>
       <Hero />
       <About />
-      {/* <Skills /> */}
+      <Skills />
       <Work />
       <Cta />
     </main>
