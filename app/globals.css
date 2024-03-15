@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
 @layer base {
   :root {
@@ -35,7 +34,7 @@
     --card-foreground: 300 0% 100%;
     --popover: 20 14.3% 4.1%;
     --popover-foreground: 60 9.1% 97.8%;
-    --primary:9 99% 67%;
+    --primary: 9 99% 67%;
     --primary-foreground: 300 0% 100 %;
     --secondary: 240 19% 16%;
     --secondary-foreground: 300 0% 100%;
@@ -47,12 +46,12 @@
     --destructive: 0 72.2% 50.6%;
     --destructive-foreground: 60 9.1% 97.8%;
     --border: 237 22% 20%;
-    --input: 237 22% 20%;
+    --input: 237 22% 40%;
     --ring: 8 99% 67%;
+    --radius: 0.5rem;
   }
 }
 
- 
 @layer base {
   * {
     @apply border-border;
@@ -62,31 +61,37 @@
   }
 }
 
-.h1{
+.h1 {
   @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
 }
 
-.h2{
+.h2 {
   @apply text-4xl font-bold;
 }
 
-.h3{
+.h3 {
   @apply text-3xl font-bold;
 }
 
-.h4{
+.h4 {
   @apply text-2xl font-semibold;
 }
 
-.subtitle{
+.h5 {
+  @apply text-xl font-semibold;
+}
+
+.subtitle {
   @apply text-muted-foreground text-lg mb-8 font-light;
 }
 
-.section-title{
+.section-title {
   @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dots_light before:dark:bg-dots_dark before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px];
 }
 
-.swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+.swiper-horizontal > .section-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
   @apply bg-primary;
 }
 
@@ -95,7 +100,7 @@
   -ms-overflow-style: none;
   -webkit-overflow-scrolling: touch;
 }
- 
+
 .no-visible-scrollbar::-webkit-scrollbar {
   display: none;
 }
