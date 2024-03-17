@@ -32,17 +32,17 @@ const Hero = () => {
         </div> */}
         <div className="flex justify-between gap-x-8">
           {/* Text */}
-          <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
+          <div className="flex max-w-[600px] flex-col justify-center mx-auto text-center">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               Software Engineer | DevOps Engineer
             </div>
             <h1 className="h1 mb-4">Hi, I'm Pragash Sasitharan</h1>
-            <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
+            <p className="subtitle max-w-[490px] mx-auto">
               I'm a passionate software engineer with a focus on building
               scalable and maintainable applications.
             </p>
             {/* Buttons */}
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto mb-12">
               <Link href="/contact">
                 <Button className="gap-x-2">
                   Contact Me <Send size={18} />
@@ -54,12 +54,12 @@ const Hero = () => {
             </div>
             {/* Socials */}
             <Socials
-              containerStyles="flex gap-x-6 mx-auto xl:mx-0"
+              containerStyles="flex gap-x-6 mx-auto"
               iconStyles="text-foreground text-[22px] hover:text-primary transition-all cursor-pointer"
             />
           </div>
           {/* Image */}
-          <div className="hidden xl:flex relative">
+          <div className="hidden">
             <div className="bg bg-hero_shape_2_light dark:bg-hero_shape_2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2">
               <DevImg
                 className="bg-blend-multiply"
@@ -69,7 +69,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className=" md:flex absolute left-2/4 bottom-44 xl:bottom-12 animate-bounce">
+        <div className=" hidden md:flex absolute left-2/4 bottom-44 xl:bottom-18 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary" />
         </div>
       </div>
