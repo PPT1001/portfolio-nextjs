@@ -72,7 +72,7 @@ const qualificationsData = [
       {
         company: "Axle Global",
         role: "Software Engineer (Contract)",
-        date: "2023 - Present",
+        date: "11/2023 - 02/2024",
       },
     ],
   },
@@ -179,7 +179,7 @@ const About = () => {
               <div className="text-lg mt-12 xl:mt-8">
                 {/* Personal */}
                 <TabsContent value="personal">
-                  <div className="text-center xl:text-left">
+                  <div className="text-center items-center xl:text-left">
                     <h3 className="h3 mb-4">Passionate Software Engineer</h3>
                     <p className="subtitle max-w-xl max-auto xl:mx-0">
                       I specialise in crafiting intuitive websites with
