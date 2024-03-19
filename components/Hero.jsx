@@ -4,6 +4,7 @@ import { Download, Send } from "lucide-react";
 import { SparklesCore } from "./ui/sparkles.tsx";
 import { BackgroundBeams } from "./ui/background-beams";
 
+
 import {
   RiBriefCase4Fill,
   RiTeamFill,
@@ -48,9 +49,11 @@ const Hero = () => {
                   Contact Me <Send size={18} />
                 </Button>
               </Link>
-              <Button variant="secondary" className="gap-x-2">
-                Download CV <Download size={18} />
-              </Button>
+              <Link href="https://drive.google.com/uc?export=download&id=1QaTSnOflv_h1GKW_z4dCx4HH2l4S4UOS">
+                <Button variant="secondary" className="gap-x-2">
+                  Download CV <Download size={18} />
+                </Button>
+              </Link>
             </div>
             {/* Socials */}
             <Socials
