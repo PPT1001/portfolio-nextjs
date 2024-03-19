@@ -13,26 +13,17 @@ import ProjectCard from "./ProjectCard";
 const projectData = [
   {
     image: "/work/1.png",
-    category: "react js",
-    name: "Website 1",
+    category: "Fullstack",
+    name: "Verisight",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A browser extension using AI/ML and community efforts to help people assess the credibility of news articles",
     link: "/",
-    github: "",
+    github: "https://github.com/orgs/verisight/repositories",
   },
   {
     image: "/work/2.png",
-    category: "next js",
-    name: "Website 2",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/3.png",
-    category: "HTML js",
-    name: "Website 3",
+    category: "Fullstack",
+    name: "Blog Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "/",
@@ -40,10 +31,19 @@ const projectData = [
   },
   {
     image: "/work/4.png",
-    category: "Full Stack",
-    name: "Website 4",
+    category: "Java",
+    name: "Westminster Shopping Centre",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A product management application utilizing Java and Java Swing, featuring product storage and basket cart management with file handling capabilities",
+    link: "/",
+    github: "/",
+  },
+  {
+    image: "/work/3.png",
+    category: "Fullstack",
+    name: "The FoodFlow",
+    description:
+      "A revolutionary food redistribution system aimed at addressing a critical issue in our society - Excess Food Waste and Hunger.",
     link: "/",
     github: "/",
   },
