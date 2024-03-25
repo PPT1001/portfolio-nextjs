@@ -17,7 +17,7 @@ const projectData = [
     name: "Verisight",
     description:
       "A browser extension using AI/ML and community efforts to help people assess the credibility of news articles",
-    link: "/",
+    link: "https://chromewebstore.google.com/detail/verisight/hakkkgoancaobbmlmngfclkdggkdnolk",
     github: "https://github.com/orgs/verisight/repositories",
   },
   {
@@ -26,8 +26,7 @@ const projectData = [
     name: "Blog Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "/",
-    github: "/",
+    github: "https://github.com/PPT1001/mern-blog",
   },
   {
     image: "/work/Frame7.png",
@@ -35,8 +34,7 @@ const projectData = [
     name: "Westminster Shopping Centre",
     description:
       "A product management application utilizing Java and Java Swing, featuring product storage and basket cart management with file handling capabilities",
-    link: "/",
-    github: "/",
+    github: "https://github.com/PPT1001/Westminster-Shopping-Center",
   },
   {
     image: "/work/Frame4.png",
@@ -44,8 +42,8 @@ const projectData = [
     name: "The FoodFlow",
     description:
       "A revolutionary food redistribution system aimed at addressing a critical issue in our society - Excess Food Waste and Hunger.",
-    link: "/",
-    github: "/",
+    link: "https://thefoodflow.live/",
+    github: "https://github.com/PPT1001/TheFoodFlow",
   },
 ];
 
