@@ -12,7 +12,7 @@ import ProjectCard from "./ProjectCard";
 
 const projectData = [
   {
-    image: "/work/1.png",
+    image: "/work/Frame3.png",
     category: "Fullstack",
     name: "Verisight",
     description:
@@ -21,7 +21,7 @@ const projectData = [
     github: "https://github.com/orgs/verisight/repositories",
   },
   {
-    image: "/work/2.png",
+    image: "/work/Frame6.png",
     category: "Fullstack",
     name: "Blog Website",
     description:
@@ -30,7 +30,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/4.png",
+    image: "/work/Frame7.png",
     category: "Java",
     name: "Westminster Shopping Centre",
     description:
@@ -39,7 +39,7 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/3.png",
+    image: "/work/Frame4.png",
     category: "Fullstack",
     name: "The FoodFlow",
     description:

@@ -181,7 +181,7 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center items-center xl:text-left">
                     <h3 className="h3 mb-4">Passionate Software Engineer</h3>
-                    <p className="subtitle max-w-xl max-auto xl:mx-0">
+                    <p className="subtitle text-center max-auto xl:mx-0">
                       I specialise in crafiting intuitive websites with
                       cutting-edge technology, delivering dynamic and engaing
                       user experience.

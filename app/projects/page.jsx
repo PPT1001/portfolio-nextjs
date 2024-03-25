@@ -7,38 +7,38 @@ import { FiExternalLink } from "react-icons/fi";
 
 const projectData = [
   {
-    image: "/work/1.png",
-    category: "FullStack",
-    name: "Website 1",
+    image: "/work/Frame3.png",
+    category: "Fullstack",
+    name: "Verisight",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    link: "/projects/FoodFlow",
-    github: "/",
+      "A browser extension using AI/ML and community efforts to help people assess the credibility of news articles",
+    link: "/",
+    github: "https://github.com/orgs/verisight/repositories",
   },
   {
-    image: "/work/2.png",
-    category: "HTML CSS",
-    name: "Website 2",
+    image: "/work/Frame6.png",
+    category: "Fullstack",
+    name: "Blog Website",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/3.png",
+    image: "/work/Frame7.png",
     category: "Java",
-    name: "Website 3",
+    name: "Westminster Shopping Centre",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A product management application utilizing Java and Java Swing, featuring product storage and basket cart management with file handling capabilities",
     link: "/",
     github: "/",
   },
   {
-    image: "/work/4.png",
-    category: "Python",
-    name: "Website 4",
+    image: "/work/Frame4.png",
+    category: "Fullstack",
+    name: "The FoodFlow",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "A revolutionary food redistribution system aimed at addressing a critical issue in our society - Excess Food Waste and Hunger.",
     link: "/",
     github: "/",
   },

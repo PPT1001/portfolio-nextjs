@@ -4,7 +4,6 @@ import { Download, Send } from "lucide-react";
 import { SparklesCore } from "./ui/sparkles.tsx";
 import { BackgroundBeams } from "./ui/background-beams";
 
-
 import {
   RiBriefCase4Fill,
   RiTeamFill,
@@ -72,9 +71,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className=" hidden md:flex absolute left-2/4 bottom-44 xl:bottom-18 animate-bounce">
+        {/* <div className=" hidden md:flex absolute left-2/4 bottom-44 xl:bottom-18 animate-bounce">
           <RiArrowDownSLine className="text-3xl text-primary" />
-        </div>
+        </div> */}
       </div>
       {/* <BackgroundBeams className="z-[-1]" /> */}
     </section>
