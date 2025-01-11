@@ -70,9 +70,14 @@ const qualificationsData = [
     title: "experience",
     data: [
       {
+        company: "IFS R&D International",
+        role: "DevOps Engineer Intern",
+        date: "06/2023 - Present",
+      },
+      {
         company: "Axle Global",
-        role: "Software Engineer (Contract)",
-        date: "11/2023 - 02/2024",
+        role: "Full Stack Developer (Freelance)",
+        date: "11/2023 - Present",
       },
     ],
   },

@@ -11,18 +11,24 @@ import {
   SiGit,
   SiDocker,
   SiJenkins,
+  SiAnsible,
+  SiTerraform,
+  SiGitlab,
   SiAdobeaftereffects,
   SiAdobepremierepro,
   SiAdobephotoshop,
   SiFigma,
   SiTrello,
+  SiAzuredevops,
+  SiJfrog,
+  SiKubernetes,
+  SiGnubash,
 } from "react-icons/si";
 import {
   FaJava,
   FaReact,
   FaWordpress,
   FaAws,
-  FaMicrosoft,
   FaNode,
 } from "react-icons/fa";
 
@@ -52,6 +58,10 @@ const skills = [
   {
     image: <SiTailwindcss size={60} className="w-25 h-25 mb-4 text-primary" />,
     title: "TailwindCSS",
+  },
+  {
+    image: <SiNextdotjs size={60} className="w-25 h-25 mb-4 text-primary" />,
+    title: "Next.js"
   },
   {
     image: <FaWordpress size={60} className="w-25 h-25 mb-4 text-primary" />,
@@ -94,6 +104,34 @@ const skills = [
   {
     image: <SiJenkins size={60} className="w-25 h-25 mb-4 text-primary" />,
     title: "Jenkins",
+  },
+  {
+    image: <SiAnsible size={60} className="w-25 h-25 mb-4 text-primary" />,
+    title: "Ansible",
+  },
+  {
+    image: <SiTerraform size={60} className="w-25 h-25 mb-4 text-primary" />,
+    title: "Terraform",
+  },
+  {
+    image: <SiGitlab size={60} className="w-25 h-25 mb-4 text-primary" />,
+    title: "GitLab",
+  },
+  {
+    image: <SiAzuredevops size={60} className="w-25 h-25 mb-4 text-primary" />,
+    title: "Azure DevOps",
+  },
+  {
+    image: <SiJfrog size={60} className="w-25 h-25 mb-4 text-primary" />,
+    title: "JFrog",
+  },
+  {
+    image: <SiKubernetes size={60} className="w-25 h-25 mb-4 text-primary" />,
+    title: "Kubernetes",
+  },
+  {
+    image: <SiGnubash size={60} className="w-25 h-25 mb-4 text-primary" />,
+    title: "Bash",
   },
 ];
 
