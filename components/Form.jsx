@@ -30,7 +30,7 @@ const Form = () => {
 
     emailjs
       .sendForm("service_4jpf04h", "template_b7ckbcb", form.current, {
-        publicKey: "v4eZdnbXPSiLdS3N3",
+        publicKey: process.env.NEXT_PUBLIC_EMAILJS_KEY,
       })
       .then(
         () => {
@@ -88,9 +88,8 @@ const Form = () => {
           Contact Me
           <ArrowRightIcon size={24} className="ml-2" />
         </Button>
-      </form>
-      {alert.show && (
-        <div className=" border-white">
+        {alert.show && (
+        <div className="border-white">
           <Alert variant={alert.variant}>
             {alert.variant === "success" ? (
               <Terminal className="h-4 w-4" />
@@ -102,6 +101,8 @@ const Form = () => {
           </Alert>
         </div>
       )}
+      </form>
+      
     </div>
   );
 };
